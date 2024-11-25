@@ -150,13 +150,16 @@ Backend
        DatabaseConnection.java # Handles MySQL connection
   
 Database
+
        parking_system.sql   # SQL schema and initial data
 
-README.md               # Project documentation
+README.md  
+
+         # Project documentation
 
 
 
 
 
 
-\
+
