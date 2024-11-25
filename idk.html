@@ -4,83 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intelligent Parking Solutions</title>
-    <link rel="stylesheet" href="idp.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Intelligent Parking Solutions for Efficient Urban Mobility</h1>
-        <p>Revolutionize urban parking with advanced technology that optimizes space, reduces congestion, and enhances the driver experience.</p>
-        <a href="#learn-more">Learn More</a>
-        <a href="#contact">Contact Us</a>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Parking Solutions</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#real-time-monitoring">Monitoring</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#automated-parking">Guidance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#payment">Payments</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Intelligent Parking Solutions</h1>
+            <p class="lead">Revolutionize urban parking with advanced technology that optimizes space, reduces congestion, and enhances the driver experience.</p>
+            <a href="#learn-more" class="btn btn-primary mx-2">Learn More</a>
+            <a href="#contact" class="btn btn-outline-secondary mx-2">Contact Us</a>
+        </div>
     </header>
 
-    <section id="real-time-monitoring">
-        <h2>Real-time Parking Availability Monitoring</h2>
-        <div class="feature">
-            <h3>Sensor Network</h3>
-            <p>Advanced sensors continuously track parking space availability in real-time.</p>
-        </div>
-        <div class="feature">
-            <h3>Data Integration</h3>
-            <p>Sensor data is aggregated and processed to provide accurate, up-to-the-minute parking information.</p>
-        </div>
-        <div class="feature">
-            <h3>Visibility and Guidance</h3>
-            <p>Drivers are seamlessly directed to available spaces through digital signage and mobile apps.</p>
-        </div>
-    </section>
-
-    <section id="automated-parking">
-        <h2>Automated Parking Guidance and Navigation</h2>
-        <div class="feature">
-            <h3>Intelligent Routing</h3>
-            <p>Dynamic algorithms analyze traffic and parking data to guide drivers to the nearest available space.</p>
-        </div>
-        <div class="feature">
-            <h3>Wayfinding Assistance</h3>
-            <p>Digital signage and in-vehicle navigation systems provide clear directions to streamline the parking experience.</p>
-        </div>
-        <div class="feature">
-            <h3>Automated Parking</h3>
-            <p>Vehicles can self-park in designated spaces, maximizing utilization and reducing manual maneuvering.</p>
-        </div>
-    </section>
-
-    <section id="payment">
-        <h2>Seamless Parking Reservation and Payment</h2>
-        <div class="feature">
-            <h3>Reservation System</h3>
-            <p>Drivers can easily reserve parking spaces in advance through mobile apps or kiosks.</p>
-        </div>
-        <div class="feature">
-            <h3>Contactless Payment</h3>
-            <p>Integrated payment options, including mobile wallets and automated license plate recognition, provide a frictionless parking experience.</p>
-        </div>
-        <div class="feature">
-            <h3>Validation and Enforcement</h3>
-            <p>Secure validation and enforcement mechanisms ensure compliance and fairness in the parking system.</p>
+    <!-- Features Section -->
+    <section id="real-time-monitoring" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Real-time Parking Availability Monitoring</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sensor Network</h5>
+                            <p class="card-text">Advanced sensors continuously track parking space availability in real-time.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Integration</h5>
+                            <p class="card-text">Sensor data is aggregated and processed to provide accurate, up-to-the-minute parking information.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Visibility and Guidance</h5>
+                            <p class="card-text">Drivers are seamlessly directed to available spaces through digital signage and mobile apps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="pricing">
-        <h2>Dynamic Pricing for Optimal Utilization</h2>
-        <div class="feature">
-            <h3>Demand-based Pricing</h3>
-            <p>Parking rates are dynamically adjusted based on real-time occupancy and demand, incentivizing drivers to park in underutilized areas.</p>
-        </div>
-        <div class="feature">
-            <h3>Revenue Optimization</h3>
-            <p>Dynamic pricing ensures the parking system is used efficiently, maximizing revenue for the city while reducing congestion.</p>
-        </div>
-        <div class="feature">
-            <h3>Equitable Access</h3>
-            <p>The pricing system balances the needs of different user groups, providing affordable options and encouraging sustainable transportation alternatives.</p>
+    <!-- Payment Section -->
+    <section id="payment" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Seamless Parking Reservation and Payment</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Reservation System</h5>
+                            <p class="card-text">Drivers can easily reserve parking spaces in advance through mobile apps or kiosks.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Contactless Payment</h5>
+                            <p class="card-text">Integrated payment options provide a frictionless parking experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Validation and Enforcement</h5>
+                            <p class="card-text">Secure validation and enforcement mechanisms ensure compliance and fairness in the parking system.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer id="contact">
-        <h2>Contact Us</h2>
-        <p>For more information, visit our website or reach out to us directly.</p>
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Dynamic Pricing for Optimal Utilization</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Demand-based Pricing</h5>
+                            <p class="card-text">Parking rates are dynamically adjusted based on real-time occupancy and demand.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Revenue Optimization</h5>
+                            <p class="card-text">Dynamic pricing ensures efficient use of the parking system.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Equitable Access</h5>
+                            <p class="card-text">Balancing the needs of different user groups, providing affordable options.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h5>Contact Us</h5>
+            <p>For more information, visit our website or reach out to us directly.</p>
+            <p>&copy; 2024 Intelligent Parking Solutions. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
