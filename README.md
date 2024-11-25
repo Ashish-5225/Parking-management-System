@@ -137,51 +137,26 @@ Update or expand the MySQL database schema (database/parking_system.sql) to add 
 
 Project Structure
 
-├── frontend/
-│   ├── index.html          # Main HTML file
-│   ├── idp.css             # CSS stylesheet
-│   ├── idp.js              # JavaScript for interactivity
-├── backend/
-│   ├── src/
-│   │   ├── Main.java        # Entry point for the backend
-│   │   ├── DatabaseConnection.java # Handles MySQL connection
-│   │   ├── ...              # Additional backend logic
-│   ├── bin/                # Compiled Java classes
-├── database/
-│   ├── parking_system.sql   # SQL schema and initial data
-├── README.md               # Project documentation
+Frontend
+
+       index.html          # Main HTML file
+       idp.css             # CSS stylesheet
+       idp.js              # JavaScript for interactivity
+
+Backend
 
 
----
+       Main.java        # Entry point for the backend
+       DatabaseConnection.java # Handles MySQL connection
+  
+Database
+       parking_system.sql   # SQL schema and initial data
 
-Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork this repository.
-
-
-2. Create a new branch:
-
-git checkout -b feature-name
-
-
-3. Commit your changes:
-
-git commit -m "Add feature description"
-
-
-4. Push to the branch:
-
-git push origin feature-name
-
-
-5. Create a pull request.
+README.md               # Project documentation
 
 
 
 
 
-- Replace placeholders such as `your_username`, `your_password`, `your-email@example.com`, and `Your Website` with actual values.
-- Make sure the `parking_system.sql` file contains the schema and initial data required for the project.
-- Update the "Project Structure" section as the project grows.
+
+\
