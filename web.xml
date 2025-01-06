@@ -1,0 +1,14 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>ParkingServlet</servlet-name>
+        <servlet-class>com.example.parking.ParkingServlet</servlet-class>
+        <init-param>
+            <param-name>totalSpots</param-name>
+            <param-value>10</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ParkingServlet</servlet-name>
+        <url-pattern>/parking</url-pattern>
+    </servlet-mapping>
+</web-app>
