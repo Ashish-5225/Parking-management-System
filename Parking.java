@@ -1,4 +1,4 @@
-package com.example.parking;
+package com.example.ParkingManagementSystem ;
 
 public class ParkingSpot {
     private int spotNumber;
