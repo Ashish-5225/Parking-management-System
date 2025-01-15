@@ -1,4 +1,4 @@
-package com.example.parking;
+package com.example.ParkingManagementSystem ;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
